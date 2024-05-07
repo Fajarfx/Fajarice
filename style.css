@@ -1,0 +1,126 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #fffbe7;
+    color: #645252;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    scroll-behavior: smooth; /* Added this line to enable smooth scrolling */
+}
+.konte-utama {
+    background-image: url('gambar/prewed.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Mengubah dari row default ke column untuk menyusun item-item secara vertikal */
+    justify-content: center;
+    align-items: center; /* Mengubah dari flex-end ke center untuk menempatkan konten secara horizontal di tengah */
+    height: 100vh;
+    position: relative;
+}
+
+
+
+    
+.scroll-button {
+    position: absolute;
+    bottom: 20px;
+    font-size: 16px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+ footer {
+    background-color: #f8e0d4;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.bride-groom-names {
+    font-family: 'Sacramento', cursive;
+}
+
+
+
+.invitation {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    height: 3000px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+button {
+    background-color: #f4bfbf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #f78181;
+}
+
+.countdown {
+    background-color: #000; /* Warna latar belakang hitam */
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%; /* Lebih kecil untuk menonjolkan kotak */
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Menengahkan konten secara horizontal */
+    align-items: center; /* Menengahkan konten secara vertikal */
+    height: 200px; /* Tinggi tetap untuk membentuk kotak */
+    color: #f0e5d8; /* Warna tulisan agak gela */
+}
+
+
+.invitation h2 {
+    font-family: 'Great Vibes', cursive; /* Font yang elegan dan romantis */
+    color: #d17a7a; /* Warna yang hangat dan lembut */
+    font-size: 2em; /* Ukuran font yang lebih besar untuk menonjolkan */
+}
+
+.invitation p {
+    font-family: 'Lora', serif; /* Font yang halus dan menyenangkan */
+    color: #6d4c41; /* Warna yang tenang dan nyaman */
+    line-height: 1.6; /* Jarak antar baris yang cukup untuk kenyamanan membaca */
+}
+
+#countdownTimer {
+    font-family: 'Fira Sans', sans-serif; /* Font modern untuk menampilkan waktu */
+    color: #5d4037; /* Warna yang lebih gelap */
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #f0e5d8; /* Warna latar belakang kotak */
+    padding: 10px; /* Padding untuk membentuk kotak */
+    border-radius: 5px; /* Membuat sudut kotak menjadi bulat */
+}
+
+button {
+    font-family: 'Montserrat', sans-serif; /* Font yang kuat dan modern */
+    letter-spacing: 1px; /* Menambahkan spasi antar huruf untuk estetika */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16); /* Menambahkan bayangan untuk efek 3D */
+}
+
+button:hover {
+    box-shadow: 0 5px 12px rgba(0,0,0,0.23); /* Bayangan yang lebih besar saat hover */
+}
+
+

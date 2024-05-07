@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="konte-utama" id="Beranda">
+        <h2 style="margin-top: 0;">Undangan Pernikahan</h2>
+    
+        <div class="bride-groom-names" style="font-size: 58px; margin-bottom: 20px;">Budi & Sari</div>
+        <h3>Sisa Waktu Menuju Hari Bahagia:</h3>
+        <div id="countdownTimer">
+            <span id="days"></span> hari,
+            <span id="hours"></span> jam,
+            <span id="minutes"></span> menit,
+            <span id="seconds"></span> detik
+        </div>
+        <button class="btn btn-primary scroll-button" onclick="scrollToInvitation()" style="margin-bottom: 35px;">Scroll ke Undangan</button>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="margin-bottom: 20px;">
+        <a class="navbar-brand" href="#" style="font-family: 'Sacramento', cursive; font-size: 30px;">Budi & Sari</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> <!-- Menambahkan class ml-auto untuk memindahkan link ke kanan -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#countdownTimer">Countdown</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#invitation">Undangan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="invitation">
+        <h2 class="bride-groom-names">Budi & Sari</h2>
+        <p>Kami mengundang Anda untuk menjadi bagian dari hari spesial kami.</p>
+        <p><strong>Tanggal:</strong> 20 Oktober 2023</p>
+        <p><strong>Waktu:</strong> 10:00 WIB</p>
+        <p><strong>Lokasi:</strong> Jl. Merdeka No.10, Jakarta</p>
+        <button>RSVP</button>
+    </section>
+    <section class="countdown">
+        <div id="countdownTimer">
+            <span id="days"></span> hari,
+            <span id="hours"></span> jam,
+            <span id="minutes"></span> menit,
+            <span id="seconds"></span> detik
+        </div>
+    </section>
+    <footer>
+        <p>Harap konfirmasi kehadiran Anda sebelum 10 Oktober 2023.</p>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
